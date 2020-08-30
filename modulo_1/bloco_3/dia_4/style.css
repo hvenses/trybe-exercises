@@ -1,0 +1,41 @@
+.titulo {
+  color: rgb(63, 63, 63);
+}
+
+section.intro {
+  background-color: rgb(94, 204, 248);
+  padding: 10px;
+}
+
+nav.menu {
+  display: block;
+}
+
+nav.menu ul {
+  list-style: none;
+  position: absolute;
+  top: 10px;
+  left: 650px;
+}
+
+nav.menu li {
+  background-color: rgb(167, 175, 175);
+  display: inline-block;
+  padding: 5px;
+  margin: 10px;
+  top: 40px;
+  right: 50px;
+}
+.culinaria {
+  float: left;
+}
+.texto-culinaria {
+}
+
+.pesca {
+  float: left;
+}
+
+.cultura {
+  float: left;
+}
