@@ -80,6 +80,14 @@
         upperP.innerText = upperP.innerText.toUpperCase();
       }
       upperCase();
+
+      function showContent() {
+        let pContent = document.getElementsByTagName("p");
+        for (let i = 0; i < pContent.length; i += 1) {
+          console.log(pContent[i].innerHTML);
+        }
+      }
+      showContent();
     </script>
   </body>
 </html>
