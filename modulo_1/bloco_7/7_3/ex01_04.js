@@ -11,6 +11,5 @@ function sum(a, b) {
 }
 
 // implemente seus testes aqui
-const expected = sum (4,'5')
-assert (expected = Error)
+assert.throws(() => {sum(4, "5"); }, /^Error: parameters must be numbers$/);
 

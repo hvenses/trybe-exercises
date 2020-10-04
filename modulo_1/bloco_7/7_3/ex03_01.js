@@ -1,4 +1,4 @@
-// Verifique se a chamada myRemove([1, 2, 3, 4], 5) retorna o array esperado
+// Verifique se a chamada myRemoveWithoutCopy([1, 2, 3, 4], 3) retorna o array esperado
 
 const assert = require('assert');
 
@@ -13,4 +13,4 @@ function myRemove(arr, item) {
 }
 
 // implemente seus testes aqui
-assert.deepStrictEqual(myRemove([1, 2, 3, 4], 5), [1, 2, 3, 4]);
+assert.deepStrictEqual(myRemove([1, 2, 3, 4], 3), [1, 2, 4]);
