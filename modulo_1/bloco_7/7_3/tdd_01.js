@@ -2,6 +2,7 @@
 
 const assert = require('assert');
 // escreva a função addOne aqui
+
 const addOne = (array) => {
   const output = [];
   for (let index = 0; index < array.length; index += 1){
@@ -19,3 +20,4 @@ assert.strictEqual(typeof addOne, 'function');
 assert.deepEqual(output, expected);
 assert.deepEqual(myArray, unchanged);
 
+console.log(output);

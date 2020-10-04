@@ -4,14 +4,14 @@ const assert = require('assert');
 // escreva a função findTheNeedle aqui
 
 const findTheNeedle = (array, string) => {
-  return array.indexOf(string);
-  /*let output = 0;
+  // return array.indexOf(string);
+  let output = -1;
   for (let index = 0; index < array.length; index += 1) {
     if (string === array[index]) {
       output = index;
     };
   };
-  return output;*/
+  return output;
 };
 
 let words = ['house', 'train', 'slide', 'needle', 'book'];
