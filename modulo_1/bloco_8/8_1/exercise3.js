@@ -1,3 +1,5 @@
+// Encontre o livro cujo nome possui 26 caracteres.
+
 const assert = require('assert');
 
 const books = [
@@ -75,7 +77,7 @@ const expected_result = {
 };
 
 function getNamedBook() {
-  // escreva seu código aqui
+  return books.find((book) => book.name.length === 26);
 }
 
 assert.deepEqual(getNamedBook(), expected_result);
