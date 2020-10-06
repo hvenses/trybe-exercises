@@ -1,4 +1,4 @@
-// Faça uma função que retorne true, se todas as pessoas autoras nasceram no século XX, ou false, caso contrário.
+// Faça uma função que retorne true, caso nenhum author tenha nascido no mesmo ano, e false, caso contrário.
 
 const assert = require('assert');
 
@@ -65,11 +65,10 @@ const books = [
   },
 ];
 
-const expected_result = false
+const expected_result = false;
 
-function everyoneWasBornOnSecXX() {
+function authorUnique() {
   // escreva seu código aqui
-  return books.every((secule) => secule.author.birthYear > 1900);
-  }
+}
 
-assert.equal(everyoneWasBornOnSecXX(), expected_result);
+assert.equal(authorUnique(), expected_result);
