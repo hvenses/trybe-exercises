@@ -1,4 +1,4 @@
-const sum = require('./sum');
+const sum = require('./1_sum');
 
 describe('sum', () => {
   test('4 somado a 5 igual a 9', () => {
