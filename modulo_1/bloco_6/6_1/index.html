@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dia 6.1</title>
+</head>
+<body>  
+  <form>
+    <fieldset>
+      <label for='name'>Name</label>
+      <input type='text' name='name' id='name' maxlength="40">
+
+      <label for='email'>Email</label>
+      <input type='email' name='email' id='email' maxlength="50">
+
+      <label for='cpf'>CPF</label>
+      <input type='text' name='cpf' id='cpf' maxlength="11">
+
+      <label for='address'>Address</label>
+      <input type='text' name='address' id='address' maxlength="200">
+
+      <label for='city'>City</label>
+      <input type='text' name='city' id='city' maxlength="28">
+
+      <label for='state'>States</label>
+      <select name='state' id='state' class="form-comp">
+      </select>
+
+      <label for='home'>Home</label>
+      <input type="radio" name='home' id='home'>
+
+      <label for='apto'>Apartment</label>
+      <input type="radio" name='home' id='apto'>
+
+    </fieldset>
+    <fieldset>
+      <label for='resume'>Resume</label>
+      <textarea name='resume' id='resume' cols="30" rows="10" maxlength="1000">texto</textarea>
+
+      <label for=occupation>Occupation</label>
+      <input type='text' name='occupation' id='occupation' maxlength="40">
+
+      <label for=description>Description</label>
+      <input type='text' name='description' id='description'>
+
+      <label for=date>Date</label>
+      <input type='date' name='date' id='date'>
+    </fieldset>
+    <button type='submit' id='submitBtn'>Register</button>
+    <button type="button">Clear Fiels</button>
+  </form>
+  <div class="results"></div>
+</body>
+</html>
