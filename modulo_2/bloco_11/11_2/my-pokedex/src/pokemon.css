@@ -1,0 +1,14 @@
+.content1 {
+  background-color: rgb(253,251,251);
+  border-color: black;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  display: flex;
+  padding: 5px 15px;
+  margin: 5px;
+}
+
+.content-text {
+  width: 250px;
+}
