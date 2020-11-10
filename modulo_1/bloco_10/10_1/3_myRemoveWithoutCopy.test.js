@@ -1,5 +1,5 @@
 const { TestScheduler } = require('jest');
-const myRemoveWithoutCopy = require('./myRemoveWithoutCopy');
+const myRemoveWithoutCopy = require('./3_myRemoveWithoutCopy');
 
 describe('myRemoveWithoutCopy', () => {
   test('Verifica se a chamada ([1, 2, 3, 4], 3) retorna o array esperado', () => {

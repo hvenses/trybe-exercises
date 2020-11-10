@@ -1,4 +1,4 @@
-const myRemove = require('./myRemove');
+const myRemove = require('./2_myRemove');
 
 describe('myRemove', () => { 
   test('Retorna um array sem o item que esta fora da matriz', () => {
